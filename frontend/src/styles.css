@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+input,
+select {
+    margin: 5px;
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    background: #007bff;
+    color: white;
+    border: none;
+}

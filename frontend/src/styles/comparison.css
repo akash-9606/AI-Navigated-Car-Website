@@ -1,0 +1,52 @@
+
+.comparison {
+    padding: 60px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+.comparison-table th {
+    background: #000;
+    color: white;
+    padding: 12px;
+    font-weight: 600;
+}
+
+.comparison-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.comparison-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.comparison-table tr:hover {
+    background: #f1f1f1;
+}
+
+.model-name {
+    font-weight: bold;
+}
+
+.price {
+    color: #00a86b;
+    font-weight: bold;
+}

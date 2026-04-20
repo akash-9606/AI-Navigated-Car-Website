@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+section {
+  padding: 60px;
+  border-bottom: 1px solid #ddd;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.assistant-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.chat {
+  height: 150px;
+  overflow-y: auto;
+}
